@@ -1,3 +1,6 @@
+ body{
+    overflow-x: hidden;
+ }
  ::selection{
     background-color: black;
     color: white;
@@ -109,13 +112,13 @@
     opacity: 1;
 }
 #portfolio{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
     top: 900px;
 }
 #pflbox>ul{
     list-style-type: none;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     
@@ -140,8 +143,35 @@ li:hover > a{
     transition: 0.3s all ease;
     overflow: hidden;
 }
+
 .pflimg:hover > img{
     transform: scale(1.1);
     transition: 0.3s;
     cursor: pointer;
+}
+#services{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 900px;
+}
+#cardbox{
+    justify-content: space-around;
+}
+.cards{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding-top: 20px;
+    transition: .2s ease;
+}
+.cards >img{
+    height: 70px;
+}
+.cards:hover{
+box-shadow: 20px 25px 51px -5px rgba(75, 72, 72, 0.7);
+-webkit-box-shadow: 20px 25px 51px -5px rgba(75,72,72,0.7);
+-moz-box-shadow: 20px 25px 51px -5px rgba(75,72,72,0.7);
+cursor: pointer;
 }
