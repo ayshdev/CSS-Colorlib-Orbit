@@ -170,8 +170,68 @@ li:hover > a{
     height: 70px;
 }
 .cards:hover{
-box-shadow: 20px 25px 51px -5px rgba(75, 72, 72, 0.7);
--webkit-box-shadow: 20px 25px 51px -5px rgba(75,72,72,0.7);
--moz-box-shadow: 20px 25px 51px -5px rgba(75,72,72,0.7);
+box-shadow: 10px 10px 94px 27px rgba(0,0,0,0.35);
+-webkit-box-shadow: 10px 10px 94px 27px rgba(0,0,0,0.35);
+-moz-box-shadow: 10px 10px 94px 27px rgba(0,0,0,0.35);
 cursor: pointer;
+}
+#resume{
+    position: relative;
+    top: 1000px;
+    
+}
+#workexpimg{
+    position: relative;
+    /* border: 2px solid red; */
+}
+#workexpimg>img{
+    width: 100%;
+}
+#workexptext{
+    padding-left: 50px;
+    padding-top: 20px;
+    /* border: 1px solid black; */
+}
+.iconbox{
+    color: rgba(104, 98, 98, 0.521);
+}
+
+.rightbox>p{
+    font-weight: 600;
+    color: #96bb7c;
+    width: 250px;
+}
+#box1, #box2, #box3, #box4{
+    /* border: 2px solid rgb(224, 14, 14); */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+footer{
+    background: #c8cbce94;
+    position: relative;
+    top: 1000px;
+    padding: 50px 100px;
+}
+#abtme>p{
+    color: #0000008f;
+}
+#connect-icons>i{
+    color: white;
+    background: #00000062;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: .3s all ease;
+}
+#connect-icons>i:hover{
+    background: #96bb7c;
+}
+.f-list>ul{
+    list-style-type: none;
+    position: relative;
+    right: 30px;
+    line-height: 30px;
+    color: #0000008f;
+
 }
